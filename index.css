@@ -582,3 +582,29 @@ footer ul li::after {
         right: 0px;
     }
 }
+
+.iconmobi i{
+    font-size: 40px;
+}
+
+.mobi {
+    font-size: 27px;
+    position: relative;
+}
+
+.mobi::after, .mobi::before {
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    width: 100px;
+    height: 1px;
+    background: #888888;
+}
+
+.mobi::after {
+    left: 30px;
+}
+
+.mobi::before {
+    right: 30px;
+}
