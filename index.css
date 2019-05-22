@@ -99,6 +99,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: #000;
     font-size: 15px;
+    overflow-x: hidden;
 }
 
 nav .collapse {
@@ -184,10 +185,9 @@ section .sp .topa {
     font-weight: 600;
 }
 
-section .row .sp:hover {
+.sp:hover {
     background-color: #00918e;
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
 }
 
 section .ser {
@@ -583,7 +583,7 @@ footer ul li::after {
     }
 }
 
-.iconmobi i{
+.iconmobi i {
     font-size: 40px;
 }
 
